@@ -29,6 +29,6 @@ def password_strength(password):
 
 
 # Test the function with a sample password
-pwd = "loveyo1!"
-pwd_strength = password_strength(pwd)
-print(f"The strength of the password '{pwd}' is: {pwd_strength}/5")
+password = "loveyo1!"
+strength = password_strength(password)
+print(f"The strength of the password '{password}' is: {strength}/5")

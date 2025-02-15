@@ -5,6 +5,7 @@ from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import padding
 import os
 
+
 def encrypt_file(file_path, password):
     # Generate a random salt
     salt = os.urandom(16)
